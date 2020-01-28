@@ -1,0 +1,43 @@
+div[class^="category-title-header"] {
+    padding-top: 60px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    min-height: 75px;
+  /* added for sizing the category logo */
+    background-repeat: no-repeat; 
+    background-size: auto 75px; /* constrain to 75px high. */
+  /* NB If aspect ratio > 1.6:1 then category-title-contents width will need adjusting */
+    background-origin: content-box; 
+    background-position: 10px center;
+  /* endof add */
+    .category-title-contents {
+        justify-content: center;
+        padding: 10px;
+        svg {
+            height: 1.5em;
+            width: 1.1em;
+            margin-right: 0.25em;
+        }
+        h1 {
+            display: inline;
+        }
+    }
+    .category-title-description {
+        a,
+        a:visited {
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+}
+.category-header {
+    #main-outlet {
+        padding-top: 20px;
+    }
+}
+/*added to avoid double display when there is a category logo */
+.category-heading {
+    display: none;
+}
