@@ -5,7 +5,7 @@
   "about_url": "https://github.com/rogercreagh/discourse-category-banners-mod",
   "authors": "modified by RogerCO",
   "theme_version": "1.0",
-  "minimum_discourse_version": null,
+  "minimum_discourse_version": 2.5,
   "maximum_discourse_version": null,
   "assets": {
   },
